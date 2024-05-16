@@ -1,0 +1,177 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #adfae3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+  background: #012318;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #ff6347;
+}
+
+/* Main content styling */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Home Page styling */
+.home-page {
+  text-align: center;
+}
+
+.home-page h1 {
+  margin-bottom: 20px;
+}
+
+.home-page p {
+  margin-bottom: 40px;
+}
+
+.home-page a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.home-page a:hover {
+  background: #ff6347;
+}
+
+/* Blog list styling */
+.blog-list article {
+  background: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-list article h2 {
+  margin-bottom: 10px;
+}
+
+.blog-list article .meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.blog-list article p {
+  margin-bottom: 15px;
+}
+
+/* Search bar styling */
+.search-bar {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 50%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Pagination styling */
+.pagination {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #ff6347;
+}
+
+/* Contact Us page styling */
+.contact-page {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-page h2 {
+  margin-bottom: 20px;
+}
+
+.contact-page form div {
+  margin-bottom: 15px;
+}
+
+.contact-page form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.contact-page form input,
+.contact-page form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-page form button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-page form button:hover {
+  background-color: #ff6347;
+}
