@@ -7,6 +7,7 @@
 
 /* Body styling */
 body {
+  background-image: url(background.jpg);
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
@@ -51,6 +52,7 @@ main {
 
 /* Home Page styling */
 .home-page {
+  color: #78fae6;
   text-align: center;
 }
 
@@ -77,7 +79,7 @@ main {
 
 /* Blog list styling */
 .blog-list article {
-  background: #fff;
+  background: #80f4cf;
   margin: 20px 0;
   padding: 20px;
   border-radius: 10px;
